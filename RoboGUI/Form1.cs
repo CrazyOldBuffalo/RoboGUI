@@ -68,9 +68,13 @@ namespace RoboGUI
                     break;
                 case Keys.G:
                     PortWrite("g");
+                    AutoModeOn_Btn.Enabled = false;
+                    AutoModeOff_Btn.Enabled= true;
                     break;
                 case Keys.H:
                     PortWrite("h");
+                    AutoModeOn_Btn.Enabled = true;
+                    AutoModeOff_Btn.Enabled = false;
                     break;
             }
         }
