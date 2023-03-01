@@ -99,6 +99,7 @@
             SerialText.Location = new Point(6, 26);
             SerialText.Multiline = true;
             SerialText.Name = "SerialText";
+            SerialText.ReadOnly = true;
             SerialText.Size = new Size(520, 353);
             SerialText.TabIndex = 4;
             // 

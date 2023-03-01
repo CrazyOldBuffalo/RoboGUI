@@ -37,7 +37,7 @@ namespace RoboGUI
                 this.KeyPreview = true;
                 this.KeyDown += new KeyEventHandler(Form1_KeyDown);
                 LeftBtn.Enabled = true;
-                Rightbtn.Enabled = true; 
+                Rightbtn.Enabled = true;
                 BtnBack.Enabled = true;
                 btnForward.Enabled = true;
                 AutoModeOn_Btn.Enabled = true;
@@ -69,7 +69,7 @@ namespace RoboGUI
                 case Keys.G:
                     PortWrite("g");
                     AutoModeOn_Btn.Enabled = false;
-                    AutoModeOff_Btn.Enabled= true;
+                    AutoModeOff_Btn.Enabled = true;
                     break;
                 case Keys.H:
                     PortWrite("h");
